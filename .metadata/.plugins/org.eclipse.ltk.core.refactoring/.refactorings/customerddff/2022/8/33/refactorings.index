@@ -1,0 +1,7 @@
+1660123918311	Delete element
+1660124409743	Rename type 'CustomerException'
+1660124613692	Encapsulate field 'message'
+1660126165917	Encapsulate field 'message'
+1660130075689	Encapsulate field 'statusCode'
+1660130082815	Encapsulate field 'message'
+1660130146786	Delete element

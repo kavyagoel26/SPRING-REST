@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=springrest/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springrest.springrest.Services{CourseService.java[CourseService" modifiers="513" timestamp="1673581300552"/>
+    <typeInfo handle="=spring-boot-security-learn/C:\/Users\/kgoyal\/.m2\/repository\/org\/springframework\/security\/spring-security-web\/5.7.2\/spring-security-web-5.7.2.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.security=/=/maven.artifactId=/spring-security-web=/=/maven.version=/5.7.2=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.security.web.authentication.www(BasicAuthenticationFilter.class[BasicAuthenticationFilter" modifiers="33" timestamp="1660641504122"/>
+</typeInfoHistroy>

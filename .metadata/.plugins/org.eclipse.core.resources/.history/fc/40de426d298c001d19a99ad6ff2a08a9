@@ -1,0 +1,50 @@
+package com.springrest.springrest.Contoller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.springrest.springrest.Dao.CourseDao;
+import com.springrest.springrest.Entity.Course;
+
+@Controller
+public class CourseController {
+
+	@Autowired
+	private CourseDao dao;
+
+	@GetMapping("/showCreateCourse")
+	@PreAuthorize("hasRole('ADMIN')")
+	public String showCreateCourse() {
+		return "createCourse";
+	}
+
+	@PostMapping("/saveCourse")
+	public String save(Course course) {
+		dao.save(course);
+		return "createResponse";
+	}
+
+	@GetMapping("/showViewCourse")
+	public String showGetCourse() {
+		return "viewCourse";
+	}
+
+	@PostMapping("/viewCourse")
+	public ModelAndView viewCourse(String title) {
+		ModelAndView mav = new ModelAndView("courseDetails");
+		mav.addObject(dao.findBytitle(title));
+		return mav;
+	}
+
+}
+	
+//	@GetMapping("/")
+//	public String index() {
+//		return "index";
+//	}
+	
+	

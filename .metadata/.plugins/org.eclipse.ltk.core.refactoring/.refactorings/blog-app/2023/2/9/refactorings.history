@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;User.java&apos; to &apos;blog-application/src/main/java/com.example.blogapplication.entities&apos;&#x0D;&#x0A;- Original project: &apos;blog-app&apos;&#x0D;&#x0A;- Destination element: &apos;blog-application/src/main/java/com.example.blogapplication.entities&apos;&#x0D;&#x0A;- Original element: &apos;com.example.blog.entities.User.java&apos;" description="Copy compilation unit" destination="=blog-application/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.blogapplication.entities" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.blog.entities{User.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1677489797593" units="1" version="1.0"/>
+</session>
